@@ -58,7 +58,8 @@
         padding: 20px;
         display: flex;
         flex-direction: column;
-        overflow: hidden;
+        overflow: scroll;
+        overflow-x: hidden;
         gap: 20px;
 
         .message{
@@ -135,6 +136,7 @@
             padding: 20px;
             border-radius: 10px;
             font-size: 14px ;
+            color: white;
 
             &:disabled{
                 cursor: not-allowed;
